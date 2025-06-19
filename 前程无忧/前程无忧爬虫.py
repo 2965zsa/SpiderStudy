@@ -56,7 +56,7 @@ for i in range(1, 51):
     # 获取相应数据
     json_data = r.response.body
 
-    # print(json_data)
+    print(json_data)
 
     items = json_data['resultbody']['job']['items']
     # print(items)
